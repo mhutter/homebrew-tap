@@ -2,9 +2,9 @@
 class Daydeal < Formula
   desc "CLI tool to fetch the current DayDeal"
   homepage "https://github.com/mhutter/daydeal"
-  url "https://github.com/mhutter/daydeal/releases/download/v1.0.1/daydeal_1.0.1_Darwin_x86_64.tar.gz"
-  version "1.0.1"
-  sha256 "f7794b52bd571e1d5ef2524a0d1a23921f5b625ca6b7bfb48d938880b82a02c9"
+  url "https://github.com/mhutter/daydeal/releases/download/v1.0.2/daydeal_1.0.2_Darwin_x86_64.tar.gz"
+  version "1.0.2"
+  sha256 "92bf857a5e669bba142fbaa8baa7fee640920435fba5d48fc333f6bdee640d33"
 
   def install
     bin.install "daydeal"
