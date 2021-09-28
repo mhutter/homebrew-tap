@@ -5,29 +5,29 @@
 class Sbb < Formula
   desc "CLI for the SBB timetables"
   homepage "https://github.com/mhutter/sbb"
-  version "1.1.1"
+  version "1.2.0"
   license "MIT"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/mhutter/sbb/releases/download/v1.1.1/sbb_1.1.1_Darwin_x86_64.tar.gz"
-      sha256 "7523bcb34aad42bedeaefad39717b637dcdf4683406f9145c6116362db523d6f"
+      url "https://github.com/mhutter/sbb/releases/download/v1.2.0/sbb_1.2.0_Darwin_x86_64.tar.gz"
+      sha256 "bc3ff726e644c1626c0d32e9d07b6889ee9159f8f03dda4892203f54778668b8"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/mhutter/sbb/releases/download/v1.1.1/sbb_1.1.1_Darwin_arm64.tar.gz"
-      sha256 "a3811ad03c8194bc05dffeb8fb49ec33e001e84fa0832eea7e97bdf8da86989a"
+      url "https://github.com/mhutter/sbb/releases/download/v1.2.0/sbb_1.2.0_Darwin_arm64.tar.gz"
+      sha256 "14a36e4efdaad1b416d4f245ff30b5c8226a3f85d81c3ebecc96871e8f7aafb5"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/mhutter/sbb/releases/download/v1.1.1/sbb_1.1.1_Linux_x86_64.tar.gz"
-      sha256 "b373736b2f80b5e4f58d0cbb8a45146ee603f73ecef085152b4dff88df2a4280"
+      url "https://github.com/mhutter/sbb/releases/download/v1.2.0/sbb_1.2.0_Linux_x86_64.tar.gz"
+      sha256 "7960ffd109f417c7384a93c9e45a2e3871c771f49562c3790d1a9f07bd857b7d"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/mhutter/sbb/releases/download/v1.1.1/sbb_1.1.1_Linux_arm64.tar.gz"
-      sha256 "5df9ff6c9b61865f4fd66edf6b1873872927595a68546db74a2b44cc3c1125c8"
+      url "https://github.com/mhutter/sbb/releases/download/v1.2.0/sbb_1.2.0_Linux_arm64.tar.gz"
+      sha256 "50c4594629f9259afde81913d27666874ace0a2bcbf864cbea6594a97065a9c7"
     end
   end
 
